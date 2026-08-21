@@ -5,7 +5,7 @@
     {
       "analysis": "AC",
       "commands": [
-        ".ac dec 101 1 100G",
+        ".ac dec 101 1 10k",
         ".kicad adjustpaths",
         ".save all",
         ".probe alli",
@@ -22,9 +22,14 @@
       "showGrid": true,
       "traces": [
         {
-          "color": "rgb(228, 26, 28)",
-          "signal": "V(/out_general) (ganho)",
-          "trace_type": 9
+          "color": "rgb(109, 166, 24)",
+          "signal": "V(/saida) (ganho)",
+          "trace_type": 521
+        },
+        {
+          "color": "rgb(154, 107, 255)",
+          "signal": "V(/saida_cap) (ganho)",
+          "trace_type": 521
         }
       ]
     }
